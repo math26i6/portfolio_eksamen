@@ -446,18 +446,13 @@ header nav {
         background-color: #2D12B2;
         box-shadow: 8px 8px 8px 0px rgba(255, 124, 25, 0.63);
         z-index: -1;
-        top: -1.35rem;
+        top: -1.9rem;
         width: 40vw;
         left: 50vw;
         animation-name: falde;
         animation-duration: 0.3s;
     }
 
-    nav a {
-
-
-        font-size: 1rem;
-    }
 
     #box {
         background-color: #2D12B2;
@@ -492,6 +487,13 @@ header nav {
         border-radius: 0px;
     }
 
+    .om .falde a:hover {
+        background-color: white;
+        color: black;
+        font-size: 1rem;
+    }
+
+
 
 
     .menu1 {
@@ -506,7 +508,11 @@ header nav {
         border-radius: 0px;
     }
 
-
+    .menu1 .falde a:hover {
+        background-color: white;
+        color: black;
+        font-size: 1rem;
+    }
 
 
     .menu2 {
@@ -522,6 +528,12 @@ header nav {
 
     }
 
+    .menu2 .falde a:hover {
+        background-color: white;
+        color: black;
+        font-size: 1rem;
+    }
+
     .menu3 {
         background-color: #FF7C19;
         top: 12.4rem;
@@ -535,6 +547,11 @@ header nav {
 
     }
 
+    .menu3 .falde a:hover {
+        background-color: white;
+        color: black;
+        font-size: 1rem;
+    }
 
     .menu4 {
         background-color: #FF7C19;
@@ -547,6 +564,12 @@ header nav {
         z-index: 3;
         border-radius: 0px;
 
+    }
+
+    .menu4 .falde a:hover {
+        background-color: white;
+        color: black;
+        font-size: 1rem;
     }
 
 
@@ -1044,7 +1067,7 @@ header nav {
     margin-bottom: 0.3rem
 }
 
-#scene_styletile {
+#scene_sFtyletile {
     width: 50%;
     flex-grow: 2;
     flex-basis: 400px;
@@ -1169,8 +1192,8 @@ header nav {
     flex-basis: 200px;
 }
 
-#billede1,
-#billede2 {
+.billede1,
+.billede2 {
     padding: 0 1rem;
 }
 
