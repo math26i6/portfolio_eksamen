@@ -58,6 +58,15 @@ a {
 
 }
 
+a:hover {
+    color: #FF7C19;
+    font-family: 'Luckiest Guy';
+    font-size: 1.5rem;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+
 
 .show {
     display: inline-block;
@@ -110,6 +119,16 @@ nav a {
 
 .om:hover .falde {
     display: block;
+}
+
+.om:hover .falde a {
+    color: white;
+}
+
+.om .falde a:hover {
+    background-color: white;
+    color: black;
+    font-size: 1.3rem;
 }
 
 
@@ -167,6 +186,16 @@ nav a {
 
 }
 
+.menu1:hover .falde a {
+    color: white;
+}
+
+.menu1 .falde a:hover {
+    background-color: white;
+    color: black;
+    font-size: 1.3rem;
+}
+
 
 
 .menu2 {
@@ -206,6 +235,16 @@ header nav {
 
 }
 
+.menu2:hover .falde a {
+    color: white;
+}
+
+.menu2 .falde a:hover {
+    background-color: white;
+    color: black;
+    font-size: 1.3rem;
+}
+
 .menu3 {
     background-color: #FF7C19;
     width: 10rem;
@@ -235,6 +274,16 @@ header nav {
 
 }
 
+.menu3:hover .falde a {
+    color: white;
+}
+
+.menu3 .falde a:hover {
+    background-color: white;
+    color: black;
+    font-size: 1.3rem;
+}
+
 .menu4 {
     background-color: #FF7C19;
     width: 10rem;
@@ -261,6 +310,16 @@ header nav {
 .menu4:hover a {
     color: black;
 
+}
+
+.menu4:hover .falde a {
+    color: white;
+}
+
+.menu4 .falde a:hover {
+    background-color: white;
+    color: black;
+    font-size: 1.3rem;
 }
 
 
@@ -822,6 +881,16 @@ header nav {
     }
 }
 
+/*------------------------------FOOTER----------------------------------*/
+#footer {
+    text-align: center;
+    background-color: black;
+    font-size: 0.6rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-left: 0.5rem;
+    color: white;
+}
 
 
 /*----------------------------TEMA1------------------------------------------*/
@@ -880,7 +949,7 @@ header nav {
     background-position: center;
     background-repeat: no-repeat;
     width: 82vw;
-    height: 45vw;
+    height: 42vw;
 }
 
 /*----------------------------------TEMA2----------------------------------- */
@@ -903,13 +972,22 @@ header nav {
         padding: 0rem;
         z-index: -1;
     }
+
+    .redesign_link {
+        padding: 0rem;
+
+    }
+
 }
 
 #pilot .beskrivelse {
 
+
+    background-color: #efefef;
     flex-grow: 1;
     flex-basis: 400px;
-    padding: 0 1rem 1rem 1rem;
+    padding: 0rem 1rem 1rem 1rem;
+    margin-bottom: 0.3rem
 }
 
 #redesign_video video {
@@ -925,14 +1003,15 @@ header nav {
 .redesign_link {
     flex-grow: 2;
     flex-basis: 400px;
+    padding: 0 1rem 0 0;
 
 }
 
 .link {
-    margin-bottom: 1vw;
+    margin-bottom: 2.4vw;
 }
 
-.beskrivelse {
+#redesign .beskrivelse {
     background-color: #efefef;
     flex-grow: 1;
     flex-basis: 400px;
@@ -955,6 +1034,16 @@ header nav {
     flex-wrap: wrap;
 }
 
+.beskrivelse {
+
+
+    background-color: #efefef;
+    flex-grow: 1;
+    flex-basis: 400px;
+    padding: 0.5rem 1rem 1rem 1rem;
+    margin-bottom: 0.3rem
+}
+
 #scene_styletile {
     width: 50%;
     flex-grow: 2;
@@ -962,14 +1051,13 @@ header nav {
     padding: 0 1rem;
 }
 
-
-#beskrivelse {
-    background-color: #efefef;
-    flex-grow: 1;
-    flex-basis: 200px;
-
-    padding: 1rem;
+#elementer {
+    display: flex;
+    height: 20vw;
+    width: 20vw;
+    padding: 0 0 0 1vw;
 }
+
 
 @media screen and (max-width:712px) {
     #scene_styletile {
@@ -1034,9 +1122,19 @@ header nav {
 
 /*--------------------------------------TEMA4----------------------------------*/
 
-.fronter {
+#fronter {
     display: flex;
     flex-wrap: wrap;
+}
+
+#fronter .beskrivelse {
+
+
+    background-color: #efefef;
+    flex-grow: 1;
+    flex-basis: 400px;
+    padding: 0 1rem 1rem 1rem;
+    margin-bottom: 0.3rem
 }
 
 @media screen and (max-width:712px) {
@@ -1052,15 +1150,10 @@ header nav {
 }
 
 #proto {
+    padding-top: 0.3rem;
     flex-grow: 1;
     flex-basis: 400px;
     padding-left: 1rem;
-}
-
-#about {
-    flex-grow: 1;
-    flex-basis: 400px;
-    padding: 0.1rem;
 }
 
 .appen {
