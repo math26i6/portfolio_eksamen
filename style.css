@@ -1067,7 +1067,7 @@ header nav {
     margin-bottom: 0.3rem
 }
 
-#scene_sFtyletile {
+#scene_styletile {
     width: 50%;
     flex-grow: 2;
     flex-basis: 400px;
